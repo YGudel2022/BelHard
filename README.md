@@ -1,2 +1,1 @@
-# BelHard
-lesson
+# Welcome Git
