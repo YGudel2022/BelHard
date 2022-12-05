@@ -1,5 +1,14 @@
-nambers = int(input("Список от 2^1 до 2^n, где n =  "))
-nambers_tuple = {2**i for i in range(1, nambers + 1)}         # кортеж из от 2^1 до 2^n
-list_nambers_tuple = list(nambers_tuple)                      # преобразовали в список
-list_nambers_tuple.sort()                                     # сортировка
-print(list_nambers_tuple)
+name = input("name: ")
+email = input("email: ")
+keys = (i: {(name, email)} for i in range(2)) # ключи поместим в кортеж
+value = {(name, email)} # значение каждого ключа вводим с клавиатуры
+empty_k = dict(keys)
+print(empty_k)
+# empty_k = dict.fromkeys(keys, value) # создаём словарь
+# print(keys)
+
+# keys = {i: {'name': input("name: "), 'email': input("email: ")} for i in range(2)}
+# empty_k = dict(keys)
+# print(empty_k)
+# {0: {'name': 'ivan', 'email': 'inal@inal.by'}, 1: {'name': 'tom', 'email': 'tom@tom.by'}}
+
