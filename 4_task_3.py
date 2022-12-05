@@ -4,8 +4,9 @@
 # для этих ключей будут браться с клавиатуры
 
 keys = {i: {'name': input("name: "), 'email': input("email: ")} for i in range(2)}
-empty_k = dict(keys)
-print(empty_k)
+print(keys)
+# empty_k = dict(keys)
+# print(empty_k)
 # {0: {'name': 'ivan', 'email': 'inal@inal.by'}, 1: {'name': 'tom', 'email': 'tom@tom.by'}}
 
 # name = input("name: ")    # поставь объявление вложенного словаря в генератор внешнего словаря
