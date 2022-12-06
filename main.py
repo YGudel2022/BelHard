@@ -76,7 +76,28 @@
 # text_replace = text.replace(" ", "") # удалил пробелы
 # text_lower = text_replace.lower() # перевёл в нижний регистр
 # print(dict((list_letters,text_lower.count(text_lower)) for list_letters in set(text_lower)))
-text = input("Введите текст: ")
-text_replace = text.replace(" ", "") # удалил пробелы
-text_lower = text_replace.lower() # перевёл в нижний регистр
-print ({n: text_lower.count(n) for n in text_lower})
+# text = input("Введите текст: ")
+# text_replace = text.replace(" ", "") # удалил пробелы
+# text_lower = text_replace.lower() # перевёл в нижний регистр
+# print ({n: text_lower.count(n) for n in text_lower})
+
+# text = "jjjkoiu8TTTT"
+# print(''.join(c for c in text if c.isupper()))
+
+# a = [2, 4, 6, 22]
+# while 2 in a:
+#     a.remove(2)
+#     print(a)
+
+# text = input("введи число: ")
+# while not text.isspace():
+#     text = input("введи число: ")
+#     print(text)
+
+# print(sum([int(i) for i in list(str(int(input('a='))))]))
+
+nambers = input('a= ')
+s = 0
+for i in numbers:
+    s += int(i)
+print(f'{s=}')
