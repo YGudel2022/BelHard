@@ -6,7 +6,13 @@
 text = input("Введите текст: ")
 text_replace = text.replace(" ", "") # удалил пробелы
 text_lower = text_replace.lower() # перевёл в нижний регистр
-print(dict((list_letters,text_lower.count(text_lower)) for list_letters in set(text_lower)))
+print ({n: text_lower.count(n) for n in text_lower})
+
+# # Вариант 2
+# text = input("Введите текст: ")
+# text_replace = text.replace(" ", "") # удалил пробелы
+# text_lower = text_replace.lower() # перевёл в нижний регистр
+# print(dict((list_letters,text_lower.count(text_lower)) for list_letters in set(text_lower)))
 
 # # С использованием collections
 # line = list(input())
