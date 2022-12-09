@@ -1,3 +1,29 @@
+n = int(input("Введите n: "))
+for i in range(2, n+1):
+    if i%2 == 0:
+        print(i)
+
+# n = int(input())
+# c = 5
+# for i in range(1, n+1):
+#     print(i, end='\n' if i else ', ' if (i % 5) else ',\n')
+
+# a = float(input('Введите число: '))
+# b = input('Выберите действие: "+", "-", "*", "/" ')
+# c = float(input('Введите число: '))
+# if b == '+':
+#     print(a + c)
+# if b == '-':
+#     print(a - c)
+# if b == '*':
+#     print(a * c)
+# if b == '/':
+#     try:
+#         answer = a / c
+#     except ZeroDivisionError:
+#         answer = "Деление на 0!"
+#     print(answer)
+
 # number = 55.
 # # Выполняем проверку условия
 # if number < 15:
@@ -96,8 +122,52 @@
 
 # print(sum([int(i) for i in list(str(int(input('a='))))]))
 
-nambers = input('a= ')
-s = 0
-for i in numbers:
-    s += int(i)
-print(f'{s=}')
+# numbers = input('a= ')
+# s = 0
+# for i in numbers:
+#     s += int(i)
+# print(f'{s=}')
+
+# text = [2, 2, 22, 2222, 222, 33, 3, 4, 44, 444, 4, 2]
+# print(set(text))
+# for index, value in enumerate(text):
+#     print(index, value)
+
+
+# doc = ['sss', 'ddd', 'rrr', 'ttt']
+# for index, value in enumerate(doc):
+#     print(index, value)
+
+# go = ['aaaaaa', 3333]
+# for index, value in enumerate(go):
+#     print(index, value)
+
+# nambers = [i for i in range(1, 9)]
+# print(nambers)
+
+# nambers = [i%2 for i in range(4, 9)]
+# print(nambers)
+
+# text1 = ['rrrr', 'wwwww', '22222']
+# text2 = ['rrrr', 'wwwww', '22222']
+# text = text1 + text2
+# sente = ''.join(text)
+# print(sente)
+
+# x = int(input(': '))
+# if 6 < x < 17:
+#     print('rrrr')
+# else:
+#     print('jjjjjj')
+
+# x = input(': ')
+# x = 2 * x
+# print(x)
+
+# text = ['rrrr', 'wwwww', '22222']
+# text = text * 2
+# sente = ''.join(text)
+# print(sente)
+# print(text)
+
+
