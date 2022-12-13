@@ -8,7 +8,6 @@ def filter_odd_num(in_num):
         return False
 # Удаление нечетных чисел с помощью filter() для удаления нечетных чисел
 out_filter = filter(filter_odd_num, numbers)
-print("Тип объекта out_filter: ", type(out_filter))
 print("Отфильтрованный список: ", list(out_filter))
 
 
