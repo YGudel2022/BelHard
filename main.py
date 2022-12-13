@@ -1,7 +1,27 @@
-n = int(input("Введите n: "))
-for i in range(2, n+1):
-    if i%2 == 0:
-        print(i)
+# список чисел
+numbers = [1, 2, 4, 5, 7, 8, 10, 11]
+# функция, которая проверяет числа на нечетность
+def filter_odd_num(in_num):
+    if(in_num % 2) == 0:
+        return True
+    else:
+        return False
+# Удаление нечетных чисел с помощью filter() для удаления нечетных чисел
+out_filter = filter(filter_odd_num, numbers)
+print("Тип объекта out_filter: ", type(out_filter))
+print("Отфильтрованный список: ", list(out_filter))
+
+
+
+
+
+
+
+
+# n = int(input("Введите n: "))
+# for i in range(2, n+1):
+#     if i%2 == 0:
+#         print(i)
 
 # n = int(input())
 # c = 5
