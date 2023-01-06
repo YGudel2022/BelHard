@@ -50,11 +50,12 @@ CREATE TABLE IF NOT EXISTS users(
     id INTEGER PRIMARY KEY AUTOINCREMENT,
     name VARCHAR(24) NOT NULL,
     email VARCHAR(24) UNIQUE,
-    user_name REFERENCES categories(name) ON DELETE CASCADE
+    FOREIGN KEY (user_name) REFERENCES categories(name) ON DELETE CASCADE
 );
 ''')
 conn.commit()
 
+# user_name REFERENCES categories(name) ON DELETE CASCADE
 
 cur.execute('''
 CREATE TABLE IF NOT EXISTS statuses(
